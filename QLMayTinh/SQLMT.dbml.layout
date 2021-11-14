@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SQLMT">
+  <DataContextMoniker Name="/SQLMTDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1880ebbb-a5c3-407d-8b59-7af3e167efe2" absoluteBounds="0.75, 1.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SQLMTDataContext/tblPhonghoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="098350d7-d9a9-4ed6-86ab-49bcd046660c" absoluteBounds="0.765, 1.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e1aacfb9-d50d-4b25-9ae6-58826cda6f10" absoluteBounds="3.5, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SQLMTDataContext/tblMaytinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f7651e9-afda-4ea8-8873-8b63b40ecde7" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.03929768880208); (3.5 : 2.03929768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SQLMTDataContext/tblPhonghoc/tblPhonghoc_tblMaytinh" />
+      <nodes>
+        <classShapeMoniker Id="1880ebbb-a5c3-407d-8b59-7af3e167efe2" />
+        <classShapeMoniker Id="e1aacfb9-d50d-4b25-9ae6-58826cda6f10" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,126 @@
+@charset "utf-8"
+*{margin:0px;padding:0px;}
+body{
+	background-image:url(../hinh/pattern.png);
+}
+.wapper{
+	margin:auto;
+	width:960px;
+	font-family:Time New Roman;
+}
+nav{
+	width:100%;
+	height:55px;
+	background:#DC50FF;
+}
+nav ul{
+	list-style:none;
+	padding-left:10px;
+}
+nav ul li{
+	float:left;
+	padding-right:60px;
+}
+nav ul li a{
+	text-decoration:none;
+	line-height:55px;
+	font-size:18px;
+	color:blue;
+}
+nav ul li a:hover{
+	color:yellow;
+}
+nav span{
+	line-height:55px;
+	font-size:22px;
+	padding-left:94px;
+	color:red;
+}
+nav button{
+	text-color:white;
+	background:blue;
+}
+.main{width:100%;}
+section{
+	width:70%;
+	background:linear-gradient(to right,#9DD7E1,white,#9DD7E1);
+	float:left;
+}
+section h1{
+	color:red;
+	text-align:center;
+}
+section .div1{
+	width:45%;
+	float:left;
+}
+section .div1 p{
+	text-indent:30px;
+	text-align:justify;
+	font-size:17px;
+	padding:14px;
+}
+section .div2{
+	width:45%;
+	float:left;
+	padding-left:25px;
+	padding-top:15px;
+}
+.div2 fieldset{
+	border-radius:10px;
+	font-size:23px;
+	padding:20px;
+	box-shadow:5px 5px 3px gray;
+}
+.div2 form{
+	width:90%;
+	padding-left:5%;
+}
+.div2 input{
+	border-radius:10px;
+	font-size:15px;
+}
+center input{
+	font-size:20px;
+}
+.div2 center input{
+	box-shadow:3px 4px 5px grey;
+	font-size:20px;
+}
+aside{
+	width:28%;
+	background:white;
+	float:left;
+	border:5px solid gray;
+	padding:4px;
+}
+aside h1{
+	text-align:center;
+	color:red;
+	text-shadow:3px 4px 5px orange;
+	font-size:20px;
+}
+aside img{
+	width:98%;
+	box-shadow:3px 5px 6px gray;
+}
+aside img:hover{
+	transform:rotate(30deg);
+	transtion-duration:10s;
+}
+aside hr{
+	border:1px dotted #990000;
+	margin:2 auto;
+}
+footer{
+	width:100%;
+	height:80px;
+	background:green;
+	clear:left;
+}
+footer p{
+	line-height:50px;
+	width:50%;
+	float:left;
+}
+	
